@@ -1,4 +1,10 @@
-﻿
+﻿'Angel Nava
+'Spring 2025
+'RCET2265
+'RolloftheDice
+'https://github.com/TheGoldenPorkchop/RolloftheDice
+Option Strict On
+Option Explicit On
 
 Module RolloftheDice
 
@@ -11,7 +17,7 @@ Module RolloftheDice
         Dim woag As String = "X |"
         Dim heading() As String = {"2 |", "3 |", "4 |", "5 |", "6 |", "7 |", "8 |", "9 |", "10 |", "11 |", "12 |"}
 
-        Console.WriteLine("Roll the Dice")
+        Console.WriteLine("Roll the Dice".PadLeft(36))
         Console.WriteLine(StrDup(66, "_") & vbNewLine)
 
         For Each letter In heading
